@@ -1,0 +1,170 @@
+#landing{
+    background-image: url("/assets/backgrounds/landing.jpg");
+    margin: 0%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#menubar{
+    position: relative;
+    left: .2em;
+    top: 80px;
+    width: 55px;
+    border: 2px solid white;
+    margin: 10px 0;
+}
+#logo{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: auto;
+
+}
+#slogan{
+    text-align: center;
+    font-size: 1.5em;
+    font-stretch: wider;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    line-height: 5mm;
+    padding: 6%;
+    color: white;
+}
+#menu{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-size: 2em;
+    color: white;
+    margin: 0px;
+    text-align: center;
+}
+#happyhour{
+    background-color: whitesmoke;
+    height: 105px;
+    width: 350px;
+    color: black;
+    line-height: 3em;
+}
+#partytime{
+    background-color: coral;
+    height: 105px;
+    width: 350px;
+    color: white;
+    line-height: 3em;
+}
+
+#breakfast{
+    background-image: url(/assets/foodtop/breakfast.jpg);
+    height: 210px;
+    width: 350px;
+    line-height: 6em;
+}
+#lunch{
+    background-image: url(/assets/foodtop/lunch.jpg);
+    height: 210px;
+    width: 350px;
+    line-height: 6em;
+}
+
+#dinner {
+    background-image: url(/assets/foodtop/dinner.jpg);
+    height: 210px;
+    width: 350px;
+    line-height: 6em;
+}
+#fastfood{
+    clear: right;
+    padding: 120px 200px 120px 200px;
+    margin: 60p;
+}
+button{
+    color: tomato;
+    padding-left: 15px;
+}
+#fastfoodpics{
+    display: flex;
+    flex-direction: column;
+    border: 18px solid white;
+    width: 490px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: left;
+    margin-right: 80px;
+    clear: right;
+}
+#drinks{
+    clear: left;
+    padding: 200px 200px 120px 200px;
+    margin: 60px;
+    text-align: right;
+}
+#drinkspics{
+    display: flex;
+    flex-direction: row;
+    border: 18px solid white;
+    width: 490px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: right;
+    margin-left: 80px;
+    clear: left;
+}
+#foodsbg {
+    background-image: url(/assets/backgrounds/foodsBg.jpg);
+    width: 100%;
+    height: 599px;
+    background-repeat: no-repeat;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-position: center;
+}
+
+#customers {
+    border: 1px solid white;
+    height: 300px;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 10%;
+    margin-left: 18%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: inline-flex;
+    padding: 2%;
+    overflow: auto;
+}
+
+#rich {
+    border-right: 1px solid black;
+    padding: 6%;
+}
+#about{
+    padding: 6%;
+}
+
+footer {
+      background-color: #F15A29;
+      padding: 5%;
+      position: static;
+      margin-bottom: 0;
+      color: white;
+  }
+footer > span {
+    display: flex;
+    justify-content: center;
+    text-align: right;
+    padding-bottom: 1%;
+
+}
+#ftlogo {
+    display: flex;
+    justify-content: center;
+}
+#socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #F15A29;
+}
+footer > p {
+    text-align: center;
+    padding-bottom: 1px;
+}
