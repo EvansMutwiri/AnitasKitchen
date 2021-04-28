@@ -1,16 +1,14 @@
-#landing{
-    background-image: url("assets/backgrounds/landing.jpg");
-    margin: 0%;
+.container {
+    background-image: url(assets/backgrounds/landing.jpg);
     background-size: 100%;
-    background-repeat: no-repeat;
 }
 #menubar{
     position: relative;
-    left: .2em;
-    top: 80px;
+    left: 2em;
+    top: 3em;
     width: 55px;
     border: 2px solid white;
-    margin: 10px 0;
+    margin: 15px 0;
 }
 #logo{
     position: relative;
@@ -27,30 +25,31 @@
     font-stretch: wider;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: lighter;
-    line-height: 5mm;
     padding: 6%;
     color: white;
 }
-#menu{
+.menu{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    max-width: 100%;
     width: 100%;
     font-size: 2em;
     color: white;
-    margin: 0px;
+    margin-top: 0;
     text-align: center;
 }
 #happyhour{
     background-color: whitesmoke;
     height: 105px;
-    width: 350px;
+    width: 22rem;
     color: black;
     line-height: 3em;
 }
 #partytime{
-    background-color: coral;
+    background-color: #F15A29;
     height: 105px;
-    width: 350px;
+    width: 22rem;
     color: white;
     line-height: 3em;
 }
@@ -58,30 +57,31 @@
 #breakfast{
     background-image: url(assets/foodtop/breakfast.jpg);
     height: 210px;
-    width: 350px;
+    width: 22rem;
     line-height: 6em;
 }
 #lunch{
     background-image: url(assets/foodtop/lunch.jpg);
     height: 210px;
-    width: 350px;
+    width: 22rem;
     line-height: 6em;
 }
 
 #dinner {
     background-image: url(assets/foodtop/dinner.jpg);
     height: 210px;
-    width: 350px;
+    width: 22rem;
     line-height: 6em;
 }
 #fastfood{
     clear: right;
-    padding: 120px 200px 120px 200px;
-    margin: 60p;
+    padding: 50px 50px;
+    margin: 10%;
 }
 button{
-    color: tomato;
+    color:#F15A29;
     padding-left: 15px;
+    border: 1px black solid;
 }
 #fastfoodpics{
     display: flex;
@@ -95,8 +95,8 @@ button{
 }
 #drinks{
     clear: left;
-    padding: 200px 200px 120px 200px;
-    margin: 60px;
+    padding: 50px 50px;
+    margin: 10px;
     text-align: right;
 }
 #drinkspics{
@@ -111,6 +111,7 @@ button{
 }
 #foodsbg {
     background-image: url(assets/backgrounds/foodsBg.jpg);
+    padding-top: 10%;
     width: 100%;
     height: 599px;
     background-repeat: no-repeat;
@@ -139,9 +140,23 @@ button{
 #about{
     padding: 6%;
 }
+.form{
+    text-align: center;
+    background-image: url(assets/backgrounds/subscribe.jpg);
+    color: white;
+    background-size: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    padding: 5%;
+}
+::placeholder{
+    opacity: .8;
+    background-color: none;
+}
 
 footer {
       background-color: #F15A29;
+      width: 100%;
       padding: 5%;
       position: static;
       margin-bottom: 0;
